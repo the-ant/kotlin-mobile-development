@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.demo.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:6:5-18:19
+14        android:allowBackup="false"
+14-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:7:13-40
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ff85ce2b5a44f8ee169af274103773e8\core-1.3.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:supportsRtl="true"
+18-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:8:13-39
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme"
+20-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:10:13-44
+21        android:usesCleartextTraffic="true" >
+21-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:9:13-48
+22        <activity android:name="com.example.demo.androidApp.MainActivity" >
+22-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:11:9-17:20
+22-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:11:19-47
+23            <intent-filter>
+23-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:12:13-16:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:13:17-68
+24-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:13:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:15:17-76
+26-->C:\Users\HP\AndroidStudioProjects\Demo\androidApp\src\main\AndroidManifest.xml:15:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
