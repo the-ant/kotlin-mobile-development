@@ -8,8 +8,4 @@ class Greeting {
     fun randomUUID(): String {
         return "${Platform().uuid}"
     }
-
-    fun printLog(): String {
-        return "${Platform().printLog}"
-    }
 }

@@ -26,8 +26,12 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("io.ktor:ktor-client-core:1.4.0")
+                implementation("io.ktor:ktor-client-core:1.4.1")
                 implementation("io.ktor:ktor-client-auth:1.4.0")
+                implementation("io.ktor:ktor-client-okhttp:1.4.0")
+                implementation("io.ktor:ktor-client-gson:1.4.0")
+                implementation("io.ktor:ktor-client-cio:1.4.0")
+                implementation("io.ktor:ktor-client-android:1.4.1")
             }
         }
         val commonTest by getting {
@@ -39,7 +43,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.1")
-                implementation("io.ktor:ktor-client-android:1.4.0")
+                implementation("io.ktor:ktor-client-android:1.4.1")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
             }
@@ -47,12 +51,12 @@ kotlin {
         val androidTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
-                implementation("junit:junit:4.12")
+                implementation("junit:junit:4.13")
             }
         }
         val iosMain by getting {
             dependencies {
-                implementation("io.ktor:ktor-client-ios:1.4.0")
+                implementation("io.ktor:ktor-client-ios:1.4.1")
             }
         }
         val iosTest by getting
